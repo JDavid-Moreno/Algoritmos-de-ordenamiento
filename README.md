@@ -41,7 +41,11 @@ Aquí se puede observar cómo se compara cada pareja de elementos, verificando q
 
 https://github.com/user-attachments/assets/34443e18-f77e-4ee4-924e-6dab5db8f060
 
-**NOTA:** En el video se ve una implementacion parecida, su diferencia es que usa un swapped el cual se usa generalmente para verificar que la lista ya esta ordenada y se dentenga el proceso.
+**NOTA:** En el video se ve una implementación parecida, su diferencia es que usa un swapped el cual se usa generalmente para verificar que la lista ya esta ordenada y se dentenga el proceso.
+
+#### Material adicional
+
+[![Bubble Sort](https://img.youtube.com/vi/pqZ04TT15PQ&t=30s/0.jpg)](https://www.youtube.com/watch?v=pqZ04TT15PQ&t=30s)
 
 -------
 
