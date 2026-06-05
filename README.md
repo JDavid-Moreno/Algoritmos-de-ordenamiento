@@ -43,3 +43,21 @@ https://github.com/user-attachments/assets/34443e18-f77e-4ee4-924e-6dab5db8f060
 
 **NOTA:** En el video se ve una implementacion parecida, su diferencia es que usa un swapped el cual se usa generalmente para verificar que la lista ya esta ordenada y se dentenga el proceso.
 
+-------
+
+## Selection Sort
+
+Consiste en como dice su nombre seleccionar un elemento, ya sea el elemento mas pequeño o el mas grande, de manera que se vaya comparando con los demas mientras se itera la lista, en caso de encontrar un elemento mas pequeño o grande dependendiendo el caso que se este usando, este se reemplaza con el elemento encontrado, y asi sucesivamente hasta recorrer toda la lista, en ese caso el elemento seleccionado se lleva al principio o final de la lista, una vez ahi se vuelve a realizar el mismo proceso ignorando el elemento ordenado.
+
+Ejemplo grafico:
+
+imagen
+
+Aqui se observa que primero se selecciona el elemento como el min ya que es el unico revisado, sin embargo mientras se recorre la lista, se busca un nuevo minimo hasta que se encuentra el elemento mas pequeño, una vez encontrado y finalizado el recorrido, ese elemento se lleva al principio de la lista y se intercambia con el elemento que se encuentra en esa posicion, en caso de que el elemento se encuentre justo en su posicion, entonces este se queda inmovil, se repite el proceso para cada elemento hasta que la lista quede arreglada.
+
+### Implementacion
+
+
+----
+
+## Insertion Sort
