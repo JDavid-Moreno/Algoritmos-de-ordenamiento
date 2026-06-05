@@ -38,4 +38,8 @@ Aquí se puede observar cómo se compara cada pareja de elementos, verificando q
 
 ![Bubble Sort](./Recursos/Bubble/BubbleSort_Codigo.png)
 
-<video src="./Recursos/Bubble/Bubble-Sort.mp4" width="100%" controls></video>
+
+https://github.com/user-attachments/assets/34443e18-f77e-4ee4-924e-6dab5db8f060
+
+**NOTA:** En el video se ve una implementacion parecida, su diferencia es que usa un swapped el cual se usa generalmente para verificar que la lista ya esta ordenada y se dentenga el proceso.
+
