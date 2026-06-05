@@ -59,7 +59,7 @@ Aqui se observa que primero se selecciona el elemento como el min ya que es el u
 
 ![Selection Sort](./Recursos/Selection/SelectionSort.png)
 
-
+https://github.com/user-attachments/assets/d8796d12-ab31-425c-a851-4c1aa8a2d0d0
 
 ----
 
