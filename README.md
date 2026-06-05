@@ -51,11 +51,14 @@ Consiste en como dice su nombre seleccionar un elemento, ya sea el elemento mas 
 
 Ejemplo grafico:
 
-imagen
+![Selection Sort](./Recursos/Selection/Selection-Sort.jpeg)
 
 Aqui se observa que primero se selecciona el elemento como el min ya que es el unico revisado, sin embargo mientras se recorre la lista, se busca un nuevo minimo hasta que se encuentra el elemento mas pequeño, una vez encontrado y finalizado el recorrido, ese elemento se lleva al principio de la lista y se intercambia con el elemento que se encuentra en esa posicion, en caso de que el elemento se encuentre justo en su posicion, entonces este se queda inmovil, se repite el proceso para cada elemento hasta que la lista quede arreglada.
 
 ### Implementacion
+
+![Selection Sort](./Recursos/Selection/SelectionSort.png)
+
 
 
 ----
