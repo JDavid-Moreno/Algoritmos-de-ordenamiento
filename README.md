@@ -1,33 +1,35 @@
-# Algoritmos-de-ordenamiento
+# Algoritmos de ordenamiento
 
-La idea principal de un algoritmo de ordenamiento es que dado un arreglo o un conjunto de elementos, ordenarlos de menor a mayor, osea por ejemplo pasar de un arreglo  ```[5, 2, 3, 1, 4]```, ordenarlo de manera que quede como  ```[1, 2, 3, 4, 5]```.
+La idea principal de un algoritmo de ordenamiento es que, dado un arreglo o un conjunto de elementos, se organicen de menor a mayor. Por ejemplo, transformar un arreglo como `[5, 2, 3, 1, 4]` de manera que quede como `[1, 2, 3, 4, 5]`.
 
-Para realizar esto existen distintos algoritmos de ordenamiento que varian en la forma en que se va iterando para ordenar los datos y su complejidad, ya que algunos algoritmos son mas eficientes que otros.
+Para lograr esto existen distintos algoritmos de ordenamiento que varían en la forma en que iteran para organizar los datos y en su complejidad, ya que algunos algoritmos son más eficientes que otros.
 
-## Clasificacion por eficiencia 
+## Clasificación por eficiencia 
 
 | Algoritmo | Complejidad |
 | :--- | :---: | 
 | Bubble Sort | O(n²) | 
 | Selection Sort | O(n²)| 
 | Insertion Sort | O(n²)|
-| Merge Sort | O(nlog(n)) |
-| Quick Sort | O(nlog(n)) |
-| Heap Sort | O(nlog(n)) |
+| Merge Sort | O(n log(n)) |
+| Quick Sort | O(n log(n)) |
+| Heap Sort | O(n log(n)) |
 
-Vamos a analizar cada algoritmo de menos a mas eficiente.
+Vamos a analizar cada algoritmo del menos al más eficiente.
 
- ## Bubble Sort
+**NOTA:** Cada algoritmo tendrá su propia implementación dentro del `README.md`; sin embargo, la explicación detallada del código estará en su respectivo informe en formato `.ipynb`.
 
-Se le llama burbuja ya que sus elemntos "burbujean" hasta el final, es el algoritmo menos eficiente de todos, el cual se utiliza actualmente mas que todo como ejercicio de aprendizaje y practica, su funcionamiento dado una lista desordenada se puede dividir en 4 etapas:
- 1. Se compara el primer elemento con el segundo elemento, si el primer elemento es mayor al segundo se intercambian.
- 2. Se avanza al siguiente par de elementos y se repite el proceso de comparacion e intercambio.
- 3. El proceso se repite hasta llegar al final de la lista, una vez completado se puede afirmar que el ultimo elemento es el mas grande de la lista.
- 4. Se repiten los pasos de la primera a tercera etapa, sin embargo, esta vez se ignora la ultima posicion ya que el elemnto mas grande ya se encuentra en la posicion final.
+## Bubble Sort (Ordenamiento Burbuja)
 
-Ejemplo grafico:
+Se le llama burbuja ya que sus elementos "burbujean" hasta el final de la estructura. Es el algoritmo menos eficiente de todos, por lo que actualmente se utiliza principalmente como ejercicio de aprendizaje y práctica. Su funcionamiento, dada una lista desordenada, se puede dividir en cuatro etapas:
 
+1. Se compara el primer elemento con el segundo; si el primer elemento es mayor que el segundo, se intercambian.
+2. Se avanza al siguiente par de elementos y se repite el proceso de comparación e intercambio.
+3. Este proceso se repite hasta llegar al final de la lista. Una vez completado, se puede asegurar que el último elemento es el más grande de la lista.
+4. Se repiten los pasos de la primera a la tercera etapa; sin embargo, en cada nueva iteración se ignora la última posición alcanzada, ya que los elementos más grandes ya se encuentran en su posición final.
 
-### Implementacion:
-sa
+Ejemplo gráfico:
 
+Aquí se puede observar cómo se compara cada pareja de elementos, verificando que si el primer valor es mayor al segundo, este se intercambia.
+
+### Implementación:
