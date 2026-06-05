@@ -30,6 +30,12 @@ Se le llama burbuja ya que sus elementos "burbujean" hasta el final de la estruc
 
 Ejemplo gráfico:
 
-Aquí se puede observar cómo se compara cada pareja de elementos, verificando que si el primer valor es mayor al segundo, este se intercambia.
+![Bubble Sort](./Recursos/Bubble/Orden-bubble.jpeg)
+
+Aquí se puede observar cómo se compara cada pareja de elementos, verificando que si el primer valor es mayor al segundo, este se intercambia hasta que la lista este ordenada.
 
 ### Implementación:
+
+![Bubble Sort](./Recursos/Bubble/BubbleSort_Codigo.png)
+
+<video src="./Recursos/Bubble/Bubble-Sort.mp4" width="100%" controls></video>
