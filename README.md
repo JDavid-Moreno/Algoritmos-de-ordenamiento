@@ -85,8 +85,12 @@ Ejemplo grafico:
 
 ![Insertion Sort](./Recursos/Insertion/InsertionSort.png)
 
-
+https://github.com/user-attachments/assets/7a11003d-a263-4cd9-bb77-45b9bd970fab
 
 ### Material adicional
 
 [![Insertion Sort](https://img.youtube.com/vi/6GU6AGEWYJY/0.jpg)](https://www.youtube.com/watch?v=6GU6AGEWYJY&t=2s)
+
+----
+
+## Merge Sort
