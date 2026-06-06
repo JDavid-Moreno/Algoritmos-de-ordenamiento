@@ -15,9 +15,9 @@ Para lograr esto existen distintos algoritmos de ordenamiento que varían en la 
 | Quick Sort | O(n log(n)) |
 | Heap Sort | O(n log(n)) |
 
-Vamos a analizar cada algoritmo del menos al más eficiente.
+Vamos a analizar cada algoritmo del menos al más eficiente, a excepcion de Heap Sort ya que este se encuentra enfocado en arboles binarios los cuales se veran mas adelante, por lo que en ese algoritmo no se enfocara.
 
-**NOTA:** Cada algoritmo tendrá su propia implementación dentro del `README.md`; sin embargo, la explicación detallada del código estará en su respectivo informe en formato `.ipynb`.
+**NOTA:** Cada algoritmo tendrá su propia implementación dentro del `README.md`; sin embargo, la explicación detallada del código estará en su respectivo informe en formato `.ipynb` ademas de estar el codigo `.py`, cada uno estara en la carpeta `Algoritmos` en la carpeta con su respectivo nombre.
 
 ## Bubble Sort (Ordenamiento Burbuja)
 
@@ -109,8 +109,28 @@ Ejemplo grafico:
 
 ### Material adicional
 
-[![Insertion Sort](https://img.youtube.com/vi/ACFZn_xQcz8/0.jpg)](https://www.youtube.com/watch?v=ACFZn_xQcz8&t=390s)
+[![Merge Sort](https://img.youtube.com/vi/ACFZn_xQcz8/0.jpg)](https://www.youtube.com/watch?v=ACFZn_xQcz8&t=390s)
 
 ---
 
 ## Quick Sort
+
+Quick Sort es un algoritmo de ordenamiento basado de igual manera en la estrategia de divide y vencerás. Su idea es elegir un elemento llamado pivote y reorganizar el arreglo de manera que todos los elementos menores queden a su izquierda y todos los mayores a su derecha. Una vez el pivote queda en su posición correcta, el problema se divide en dos subarreglos más pequeños (izquierda y derecha), y se repite el mismo proceso sobre cada uno de ellos hasta que todos los elementos quedan ordenados. Lo importante es que Quick Sort no ordena directamente todo el arreglo, sino que va colocando pivotes en su posición definitiva y reduciendo el problema recursivamente.
+
+Ejemplo grafico:
+
+![Quick Sort](./Recursos/Quick/QuickSort.jpeg)
+
+ahora para cada subarreglo:
+
+![Quick Sort](./Recursos/Quick/QuickSort-Izquierda.jpeg)
+
+![Quick Sort](./Recursos/Quick/QuickSort-Derecha.jpeg)
+
+### Implementación:
+
+![Quick Sort](./Recursos/Quick/QuickSort.png)
+
+### Material adicional
+
+[![Merge Sort](https://img.youtube.com/vi/UrPJLhKF1jY/0.jpg)](https://www.youtube.com/watch?v=UrPJLhKF1jY)
