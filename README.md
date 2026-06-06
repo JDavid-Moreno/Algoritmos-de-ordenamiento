@@ -43,9 +43,11 @@ https://github.com/user-attachments/assets/34443e18-f77e-4ee4-924e-6dab5db8f060
 
 **NOTA:** En el video se ve una implementación parecida, su diferencia es que usa un swapped el cual se usa generalmente para verificar que la lista ya esta ordenada y se dentenga el proceso.
 
-#### Material adicional
+### Material adicional
 
-[![Bubble Sort](https://img.youtube.com/vi/pqZ04TT15PQ&t=30s/0.jpg)](https://www.youtube.com/watch?v=pqZ04TT15PQ&t=30s)
+[![Bubble Sort](https://img.youtube.com/vi/pqZ04TT15PQ/0.jpg)](https://www.youtube.com/watch?v=pqZ04TT15PQ&t=30s)
+
+
 
 -------
 
@@ -59,12 +61,32 @@ Ejemplo grafico:
 
 Aqui se observa que primero se selecciona el elemento como el min ya que es el unico revisado, sin embargo mientras se recorre la lista, se busca un nuevo minimo hasta que se encuentra el elemento mas pequeño, una vez encontrado y finalizado el recorrido, ese elemento se lleva al principio de la lista y se intercambia con el elemento que se encuentra en esa posicion, en caso de que el elemento se encuentre justo en su posicion, entonces este se queda inmovil, se repite el proceso para cada elemento hasta que la lista quede arreglada.
 
-### Implementacion
+### Implementación
 
 ![Selection Sort](./Recursos/Selection/SelectionSort.png)
 
 https://github.com/user-attachments/assets/d8796d12-ab31-425c-a851-4c1aa8a2d0d0
 
+### Material adicional
+
+[![Selection Sort](https://img.youtube.com/vi/Myy-eU-SWbE/0.jpg)](https://www.youtube.com/watch?v=Myy-eU-SWbE&list=PLfBtpqIBIz7qyXl8TK8KPHYylRVlvIFY8&index=2)
+
 ----
 
 ## Insertion Sort
+
+Este algoritmo organiza los elementos de forma natural, es decir como las personas lo hacen para organizar cosas como una mano de cartas, consiste en ir ordenando un elemento a la vez, comparando con los anteriores para ver en que posicion debe ir y asi sucesivamanete hasta organizar toda la lista.
+
+Ejemplo grafico:
+
+![Insertion Sort](./Recursos/Insertion/InsertionSort.jpeg)
+
+### Implementación
+
+![Insertion Sort](./Recursos/Insertion/InsertionSort.png)
+
+
+
+### Material adicional
+
+[![Insertion Sort](https://img.youtube.com/vi/6GU6AGEWYJY/0.jpg)](https://www.youtube.com/watch?v=6GU6AGEWYJY&t=2s)
