@@ -94,3 +94,23 @@ https://github.com/user-attachments/assets/7a11003d-a263-4cd9-bb77-45b9bd970fab
 ----
 
 ## Merge Sort
+
+Es uno de los algoritmos más populares, asi mismo, es más eficiente que los algoritmos anteriores, ya que este usa el principio de dividir y conquistar, tema que se abordara con mayor profundidad más adelante en otro repo, por el momento podemos decir que consiste en agarrar un problema e irlo dividiendo en el mismo problema, sin embargo, este se va haciendo cada vez más pequeño y manejable.
+
+Concretamente para este problema, lo que se hace, es dividir la lista a la mitad de manera recursiva hasta que cada elemento se encuentra solo, es decir que cada elemento sea una lista propia, una vez separados se van uniendo nuevamente, sin embargo, se unen de manera ordenada hasta unir todos los elementos nuevamente en una lista, pero ya ordenados.
+
+Ejemplo grafico:
+
+![Merge Sort](./Recursos/Merge/MergeSort.jpeg)
+
+### Implementación
+
+![Merge Sort](./Recursos/Merge/MergeSort.png)
+
+### Material adicional
+
+[![Insertion Sort](https://img.youtube.com/vi/ACFZn_xQcz8/0.jpg)](https://www.youtube.com/watch?v=ACFZn_xQcz8&t=390s)
+
+---
+
+## Quick Sort
