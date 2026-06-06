@@ -131,6 +131,8 @@ ahora para cada subarreglo:
 
 ![Quick Sort](./Recursos/Quick/QuickSort.png)
 
+https://github.com/user-attachments/assets/1801d99a-7105-42e1-b1da-f6bec106282e
+
 ### Material adicional
 
 [![Merge Sort](https://img.youtube.com/vi/UrPJLhKF1jY/0.jpg)](https://www.youtube.com/watch?v=UrPJLhKF1jY)
